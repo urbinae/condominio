@@ -664,10 +664,10 @@ class HomeController extends Controller {
                 if ($month == 07 and $year == $myyear) {
                     $julio = $julio + $key->monto;
                 }
-                if ($month == 08 and $year == $myyear) {
-                    $agosto = $agosto + $key->monto;
-                }
-                if ($month == 09 and $year == $myyear) {
+                //if ($month == 08 and $year == $myyear) {
+                //    $agosto = $agosto + $key->monto;
+                //}
+                /*if ($month == 09 and $year == $myyear) {
                     $septiembre = $septiembre + $key->monto;
                 }
                 if ($month == 10 and $year == $myyear) {
@@ -678,7 +678,7 @@ class HomeController extends Controller {
                 }
                 if ($month == 12 and $year == $myyear) {
                     $diciembre = $diciembre + $key->monto;
-                }
+                }*/
             }
         }
 
